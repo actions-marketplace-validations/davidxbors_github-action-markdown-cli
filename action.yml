@@ -1,6 +1,6 @@
 ---
-name: markdownlint-cli
-author: Nick Osborn
+name: malus-markdown-linter 
+author: David Bors 
 description: Style checker and lint tool for Markdown/CommonMark files.
 
 inputs:
