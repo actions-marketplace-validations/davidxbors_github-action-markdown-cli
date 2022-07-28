@@ -4,4 +4,6 @@ RUN npm install --global --production --update-notifier=false markdownlint-cli@0
 
 COPY entrypoint.sh /entrypoint.sh
 COPY markdownlint-problem-matcher.json /markdownlint-problem-matcher.json
+COPY custom/config.json /config.json
+COPY custom/rules/ /rules/
 ENTRYPOINT ["/entrypoint.sh"]
