@@ -23,6 +23,10 @@ inputs:
 runs:
   using: docker
   image: Dockerfile
+  args:
+    - ${{ inputs.config_file }}
+    - ${{ inputs.rules }}
+    - ${{ inputs.files }}
 
 branding:
   icon: check-circle
