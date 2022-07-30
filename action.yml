@@ -5,7 +5,7 @@ description: Style checker and lint tool for Markdown/CommonMark files.
 
 runs:
   using: docker
-  image: tmknom/markdownlint
+  image: tmknom/markdownlint:latest
 
 branding:
   icon: check-circle
