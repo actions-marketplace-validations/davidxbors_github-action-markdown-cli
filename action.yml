@@ -6,7 +6,6 @@ description: Style checker and lint tool for Markdown/CommonMark files.
 runs:
   using: docker
   image: tmknom/markdownlint
-  run: docker run --rm -v ${{ github.workspace }}:/work tmknom/markdownlint -c custom/config.json -r custom/rules/rules.js
 
 branding:
   icon: check-circle
